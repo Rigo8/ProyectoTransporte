@@ -13,4 +13,4 @@
 	read(Transporte),
 	transporte(Transporte).**
 	
-/play secret
+:white_circle: :red_circle: Rigo
