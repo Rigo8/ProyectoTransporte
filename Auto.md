@@ -8,7 +8,7 @@
 * _encontrarLlaves(Variable):-_
         1. Donde recibe un parametro que en caso de ser igual a "si" le dara acceso al siguiente paso y le pedira que busque su licencia.
 Posteriormente le preguntara si tiene su licencia, donde debera responder si o no.
-        *En caso de responder "no" se estara ejecutando la funcion hasta que su respuesta sea "si".
+        2. En caso de responder "no" se estara ejecutando la funcion hasta que su respuesta sea "si".
         
         
 transporte(Transporte):- Transporte='auto',!,nl,write('Has elegido ir en Auto!'),nl,write('Busca las llaves!, ya las tienes '),read(Llaves),encontrarLlaves(Llaves).
