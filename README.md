@@ -5,7 +5,7 @@
 : Donde no recibira ningun elemento y elegira el transporte en que viajara a la escuela
 
 ***
-![1](Pictures/ProyectoProlog/transporte.PNG)
+![1](pictures/proyectoProlog/transporte.PNG)
 viajeEscuela:-write('Elige una forma de transporte'),nl,
 	write('auto,uber,autobus'),nl,
 	read(Transporte),
