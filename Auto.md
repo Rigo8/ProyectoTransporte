@@ -1,31 +1,9 @@
-#_ProyectoTransporte_
-###En caso de elegir auto :car:
-
-###Las funciones utilizadas son:
+#_Proyecto Transporte_
 
 
-* __transporte(Variable):-__
-
-1. Donde recibe un parametro que en caso de ser igual a "auto", se mostrara un mensaje diciendo que la opcion que ha elegido 
-Posteriormente le mostrara un mensaje pidiendole que busque sus llaves y se le preguntara si cuenta con ellas por lo que se debera
-        escribir "si" o "no" como respuesta.
-
-
-* __encontrarLlaves(Variable):-__
-
-1. Donde recibe un parametro que en caso de ser igual a "si" le dara acceso al siguiente paso y le pedira que busque su licencia.
-Posteriormente le preguntara si tiene su licencia, donde debera responder si o no.
-2. En caso de responder "no" se estara ejecutando la funcion hasta que su respuesta sea "si".
-        
-* __licencia(Variable):-__
-
-1. Donde recibe un parametro que en caso de ser igual a "si" le dara acceso al siguiente paso y le pedira que utilice el cinturon de seguridad y le preguntara si lo esta utilizando donde su respuesta debera ser "si" o "no".
-2. En caso de responder "no" se estara ejecutando la funcion hasta que su respuesta sea "si".
-        
-* __dentro(Variable):-__ 
-
-1. Donde recibe un parametro que en caso de ser igual a "si" le pedira que se encienda el auto y vaya con precaucion.
-2. En caso de responder "no" le dara un mensaje de precaucion y se estara ejecutando la funcion hasta que su respuesta sea "si".
-
-:white_circle: :red_circle: Rigo
-        
+%Aqui acciones en caso de elegir UBER
+transporte(Transporte):- Transporte='uber',!,nl,write('Has elegido ir en UBER! '),nl,write('Entra a la aplicacion de UBER, fija tu punto de partida y elige la opcionESTIMACION DE TARIFA e ingresa tu destino. Tienes el dinero suficiente? '),read(Dinero),dinero(Dinero).
+dinero(Dinero):- Dinero='si',!,write('Excelente!, regresate y elige la opcion PEDIR UBER '),nl,write('Ya llego tu UBER? '),read(Llego),llego(Llego).
+dinero(Dinero):- Dinero='no',!,write('Que mal!, consigue lo suficiente. Ya lo tienes? '),read(Nodinero),dinero(Nodinero).
+llego(Llego):- Llego='si',!,write('Sal y dale la ruta mas segura y viable ').
+llego(Llego):- Llego='no',!,write('Pon atención al GPS de la aplicacion, para ver si tuvo algun problema, ya llego? '),read(NoLlego),llego(NoLlego).
