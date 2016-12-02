@@ -1,10 +1,10 @@
-###viajeEscuela:- 
+### viajeEscuela:- 
 	write('Elige una forma de transporte'),nl,
 	write('auto,uber,autobus'),nl,
 	read(Transporte),
 	transporte(Transporte).
 
-##%Aqui estan las acciones en caso de elegir auto
+## %Aqui estan las acciones en caso de elegir auto
 
 ### transporte(Transporte):- 
 Transporte='auto',!,nl,write('Has elegido ir en Auto!'),nl,write('Busca las llaves!, ya las tienes '),read(Llaves),encontrarLlaves(Llaves).
