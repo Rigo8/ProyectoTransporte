@@ -1,8 +1,9 @@
 #_ProyectoTransporte_
 
 ###Las funciones utilizadas son:
-*_viajeEscuela:-_
-: Donde no recibira ningun elemento y elegira el transporte en que viajara a la escuela
+* _viajeEscuela:-_
+
+##### Donde no recibira ningun elemento y elegira el transporte en que viajara a la escuela
 
 ***
 
