@@ -2,7 +2,7 @@
 
 ###Las funciones utilizadas son:
 *_transporte(Variable):-_
-       -Donde recibe un parametro que en caso de ser igual a "auto", se mostrara un mensaje diciendo que la opcion que ha elegido. Posteriormente le mostrara un mensaje pidiendole que busque sus llaves y se le preguntara si cuenta con ellas por lo que se debera escribir "si" o "no" como respuesta
+        -Donde recibe un parametro que en caso de ser igual a "auto", se mostrara un mensaje diciendo que la opcion que ha elegido. Posteriormente le mostrara un mensaje pidiendole que busque sus llaves y se le preguntara si cuenta con ellas por lo que se debera escribir "si" o "no" como respuesta.
 
 transporte(Transporte):- Transporte='auto',!,nl,write('Has elegido ir en Auto!'),nl,write('Busca las llaves!, ya las tienes '),read(Llaves),encontrarLlaves(Llaves).
 encontrarLlaves(Llaves):- Llaves='si',!,write('Bien!, Contianua el siguiente paso '),nl,write('Tienes tu licencia '),read(Licencia),licencia(Licencia).
