@@ -3,9 +3,9 @@
 ###Las funciones utilizadas son:
 * _viajeEscuela:-_
 	- Donde no recibira ningun elemento y elegira el transporte en que viajara a la escuela, entre las opciones a elegir estan:
-	1.- Auto
-	2.- UBER
-	3.- Autobus
+	1. Auto
+	2. UBER
+	3. Autobus
 
 ***
 
