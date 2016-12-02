@@ -6,7 +6,7 @@
 
 ***
 ![imagen 1][1]
-[1]: (C://Users/Administrador/Pictures/ProyectoProlog/transporte.PNG)
+[1]: (Pictures/ProyectoProlog/transporte.PNG)
 viajeEscuela:-write('Elige una forma de transporte'),nl,
 	write('auto,uber,autobus'),nl,
 	read(Transporte),
