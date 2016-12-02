@@ -5,8 +5,8 @@
 
 
 * __transporte(Variable):-__
-1. 
-Donde recibe un parametro que en caso de ser igual a "auto", se mostrara un mensaje diciendo que la opcion que ha elegido 
+
+1. Donde recibe un parametro que en caso de ser igual a "auto", se mostrara un mensaje diciendo que la opcion que ha elegido 
 Posteriormente le mostrara un mensaje pidiendole que busque sus llaves y se le preguntara si cuenta con ellas por lo que se debera
         escribir "si" o "no" como respuesta.
 
