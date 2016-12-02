@@ -3,7 +3,7 @@
 
 ###Las funciones utilizadas son:
 * _transporte(Variable):-_
-        * ####Donde recibe un parametro que en caso de ser igual a "auto", se mostrara un mensaje diciendo que la opcion que ha elegido. 
+        * Donde recibe un parametro que en caso de ser igual a "auto", se mostrara un mensaje diciendo que la opcion que ha elegido. 
         Posteriormente le mostrara un mensaje pidiendole que busque sus llaves y se le preguntara si cuenta con ellas por lo que se debera 
         escribir "si" o "no" como respuesta.
 
@@ -12,7 +12,10 @@
 1. Donde recibe un parametro que en caso de ser igual a "si" le dara acceso al siguiente paso y le pedira que busque su licencia.
 Posteriormente le preguntara si tiene su licencia, donde debera responder si o no.
 
-        2. En caso de responder "no" se estara ejecutando la funcion hasta que su respuesta sea "si".
+2. En caso de responder "no" se estara ejecutando la funcion hasta que su respuesta sea "si".
+        
+        
+        
         
         
 transporte(Transporte):- Transporte='auto',!,nl,write('Has elegido ir en Auto!'),nl,write('Busca las llaves!, ya las tienes '),read(Llaves),encontrarLlaves(Llaves).
